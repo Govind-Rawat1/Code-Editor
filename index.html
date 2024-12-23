@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Editor</title>
+</head>
+<body>
+    <div class="code-editor-container">
+        <div class="code-editor html-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="./Images/html.png" width="25px">
+                    <span>HTML</span>
+                </div>
+                
+            </div>
+
+            <textarea class="html-input" spellcheck="false"></textarea>
+        </div>
+        <div class="code-editor css-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="./Images/css.png" width="25px">
+                    <span>CSS</span>
+                </div>
+                
+            </div>
+
+            <textarea class="css-input" spellcheck="false"></textarea>
+        </div>
+        <div class="code-editor js-editor">
+            <div class="head-editor">
+                <div class="left-head">
+                    <img src="./Images/js.png" width="25px">
+                    <span>JS</span>
+                </div>
+                
+            </div>
+
+            <textarea class="js-input" spellcheck="false"></textarea>
+        </div>
+    </div>
+
+
+    <div class="output-container">
+        <div class="output-head">
+            <button id="btnOutput">Output</button>
+            <button id="btnFullscreen"> Full-screen Output</button>
+        </div>
+
+        <iframe id="output"></iframe>
+    </div>
+
+    <script src="script.js"></script>  
+</body>
+</html>
